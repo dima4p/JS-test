@@ -120,3 +120,11 @@ guard :rspec, cmd: "bundle exec rspec",
   watch(%r{^spec/models/ability/(.+)\.rb$}) {"spec/models/ability_spec.rb"}
 
 end
+
+guard :teaspoon do
+  # Implementation files
+  watch(%r{^app/javascript/(.+).js}) { |m| "#{m[1]}_spec" }
+
+  # Specs / Helpers
+  watch(%r{^spec/javascripts/(.*)})
+end

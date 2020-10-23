@@ -1,24 +1,5 @@
-# README
+# Two promlems are here
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. How to make the test `./spec/javascripts/models/sample_spec.coffee` work?
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+2. If revert the commit `00740488a63`, how to make rake work?

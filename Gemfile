@@ -38,6 +38,7 @@ group :development, :test do
   gem 'guard-rspec'
   gem 'guard-teaspoon'
   # js
+  gem 'teaspoon', github: 'dima4p/teaspoon'
   gem 'teaspoon-mocha'
   gem 'phantomjs'
 end

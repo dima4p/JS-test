@@ -1,4 +1,4 @@
-import Sample from 'models/sample'
+# import Sample from 'models/sample'
 # require models/sample
 
 describe "Sample", ->

@@ -35,5 +35,5 @@
 yarn-debug.log*
 .yarn-integrity
 
-# Do not disclose DB credentials
-config/database.yml
+# Do not disclose DBs
+db/*.sqlite3

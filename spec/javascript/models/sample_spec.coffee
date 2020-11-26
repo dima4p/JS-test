@@ -32,5 +32,5 @@ describe "Sample", ->
       sample = new Sample('name')
       expect(Object.keys(sample)).toEqual(["amen"])
 
-    undefined   # 'constructor'
-  undefined   # "Sample
+    return   # 'constructor'
+  return   # "Sample

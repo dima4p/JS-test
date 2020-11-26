@@ -1,19 +1,11 @@
-# Two promlems are here
+# Wrong line number in coffeescript
 
-1. How to make the test `./spec/javascripts/models/sample_spec.coffee` work?
+1. Clone the repo
 
-2. If revert the commit `00740488a63`, how to make rake work?
+2. `cd` to the cloned directory
 
-# To setup
+3. `yarn install --check-files`
 
-1. `bundle`
+4. `yarn test`
 
-2. `yarn install --check-files`
-
-# To run
-
-`bundle exec guard`
-
-or simple
-
-`teaspoon`
+5. You will see, that test failed at `spec/javascript/models/sample_spec.coffee:46:42` while there is only 36 lines in the file.
